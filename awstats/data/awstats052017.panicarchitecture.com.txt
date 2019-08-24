@@ -1,0 +1,386 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201705 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2588                
+POS_VISITOR 7990                
+POS_DAY 10367               
+POS_DOMAIN 3220                
+POS_LOGIN 3560                
+POS_ROBOT 3715                
+POS_WORMS 4019                
+POS_EMAILSENDER 4150                
+POS_EMAILRECEIVER 4293                
+POS_SESSION 10672               
+POS_SIDER 10862               
+POS_FILETYPES 4428                
+POS_OS 4543                
+POS_BROWSER 4652                
+POS_SCREENSIZE 4913                
+POS_UNKNOWNREFERER 4987                
+POS_UNKNOWNREFERERBROWSER 5479                
+POS_ORIGIN 5661                
+POS_SEREFERRALS 5796                
+POS_PAGEREFS 5940                
+POS_SEARCHWORDS 6201                
+POS_KEYWORDS 6353                
+POS_MISC 2252                
+POS_ERRORS 6412                
+POS_CLUSTER 3416                
+POS_SIDER_404 6513                
+POS_PLUGIN_geoip_city_maxmind 7191                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170601021637 2 182 8147904972698
+FirstTime 20170520224542
+LastTime 20170531183018
+LastUpdate 20170601043040 2 0 1 0 0
+TotalVisits 80                  
+TotalUnique 59                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 59                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 4 87712 6 6 45844
+1 2 2 4159 0 0 0
+2 16 16 306992 19 20 157969
+3 3 3 43856 5 5 44850
+4 4 4 87712 2 2 994
+5 0 0 0 3 3 1491
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 3 3 65784 0 0 0
+9 1 1 4159 3 3 1491
+10 7 7 153496 5 5 66778
+11 3 3 43856 0 0 0
+12 3 3 43856 3 3 1491
+13 20 37 274707 3 9 25407
+14 2 2 43856 3 3 22662
+15 17 17 263488 2 2 22425
+16 7 7 131568 7 7 110137
+17 4 4 87712 0 0 0
+18 3 3 65784 4 4 23419
+19 4 4 87712 0 0 0
+20 5 5 87712 6 6 24413
+21 1 1 21928 2 2 994
+22 2 2 26087 0 0 0
+23 8 8 175424 2 4 23419
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 74 91 1196035
+unknown 25 25 512662
+cn 5 5 91871
+gb 5 5 87712
+jp 3 3 65784
+de 3 3 65784
+fr 2 2 43856
+tr 1 1 21928
+br 1 1 21928
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+no_user_agent 8 175424 20170524183133 0
+bot[+:,\.\;\/\\-] 8 153496 20170527203727 0
+crawl 4 87949 20170525162117 0
+slurp 2 0 20170522025516 0
+java 1 21928 20170522025849 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+css 1 6200 0 0
+png 8 56182 0 0
+html 119 1950725 0 0
+js 8 94453 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 79
+winlong 13
+winxp 7
+winnt 21
+Unknown 9
+linuxubuntu 2
+linux 5
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+msie6.0 1
+firefox53.0 1
+opera 1
+firefox49.0 1
+curl 1
+firefox7.0.1 1
+firefox12.0 1
+msie8.0 18
+firefox1.0.7 1
+firefox0.10.1 1
+mozilla 8
+msie10.0 1
+firefox3.0.10 1
+firefox8.0.1 1
+Unknown 2
+firefox35.0 2
+safari 94
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Curl/PHP_5.6.30_(http://github.com/shuber/curl) 20170530185347
+Go-http-client/1.1 20170522025515
+Mozilla/5.0_(compatible;_um-LN/1.0;_mailto:_techinfo@ubermetrics-technologies.com) 20170522025603
+Mozilla/5.0_(compatible;_ips-agent) 20170525041917
+Mozilla/5.0_(compatible;_Newlyso.com) 20170530044252
+Mozilla/5.0_Firefox/35.0 20170521225907
+HubSpot_Marketing_Grader,_HubSpot_Marketing_Grader 20170523163011
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20170522025515
+HubSpot_Marketing_Grader,_HubSpot_Marketing_Grader 20170523163011
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 92 92
+From1 0 0
+From2 0 0
+From3 23 23
+From4 4 21
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://www.facebook.com 15 15
+https://t.co/oKS32zJZAz 6 6
+http://t.co/oKS32zJZAz 1 1
+http://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 7 109640
+404 54 25347
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 17
+/admin/index.php 1 http://panicarchitecture.com/admin/index.php
+/apple-touch-icon-precomposed.png 1 -
+/.rss 1 -
+/feed 1 -
+/robots.txt 18 -
+/atom 1 -
+/index.php/admin/ 1 http://panicarchitecture.com/index.php/admin/
+/apple-touch-icon.png 1 -
+/user 1 http://panicarchitecture.com/user
+/admin.php 5 -
+/bitrix/admin/ 1 http://panicarchitecture.com/bitrix/admin/
+/compass/css3 1 http://panicarchitecture.com/panicarchitecture.html
+/administrator/index.php 7 -
+/wp-login.php 7 -
+/jquery-1.10.2.min.js 3 http://www.panicarchitecture.com/
+/functions.js 3 http://www.panicarchitecture.com/
+/rss 1 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 19
+unknown 0 62 0 0
+us_san%20mateo_ca 0 46 0 0
+us_los%20alamitos_ca 0 3 0 0
+us_phoenix_az 0 3 0 0
+de_kiez_12 0 2 0 0
+us_wilmington_de 0 2 0 0
+cn_shanghai_23 0 2 0 0
+cn_beijing_22 0 2 0 0
+us_mountain%20view_ca 0 2 0 0
+gb_alexandria_w7 0 2 0 0
+us_forest%20hill_md 0 1 0 0
+us_sterling_va 0 1 0 0
+us_mount%20laurel_nj 0 1 0 0
+de_arnsberg_07 0 1 0 0
+us_novato_ca 0 1 0 0
+us_lake%20forest_ca 0 1 0 0
+us_danville_ca 0 1 0 0
+tr_istanbul_34 0 1 0 0
+fr_paris_a8 0 2 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 59
+76.14.20.51 26 43 362419 20170530025136
+173.164.186.234 16 16 241560 20170521153456
+50.117.89.222 4 4 52174 20170524112835
+104.238.248.15 4 4 87712 20170526155821
+178.63.21.209 3 3 65784 20170527004132
+204.44.65.210 3 3 65784 20170524044158
+75.149.221.170 3 3 65784 20170530121857
+162.242.156.106 2 2 43856 20170525004443
+173.53.57.170 2 2 43856 20170525083849
+124.206.180.130 2 2 26087 20170521225907
+195.154.172.53 1 1 21928 20170522025958
+140.205.201.17 1 1 21928 20170523103733
+64.74.215.174 1 1 21928 20170521163159
+209.133.211.147 1 1 21928 20170530185347
+54.174.57.78 1 1 21928 20170523163012
+52.21.178.185 1 1 21928 20170522025522
+77.92.130.85 1 1 21928 20170522025516
+205.154.255.186 1 1 0 20170522164447
+108.175.11.230 1 1 21928 20170524170958
+140.205.201.13 1 1 21928 20170524193642
+107.167.122.77 1 1 21928 20170522025849
+104.130.124.209 2 2 43856 20170521204102
+150.70.188.180 1 1 21928 20170524124810
+66.102.8.151 1 1 21928 20170522210316
+150.70.173.10 1 1 21928 20170522025749
+54.86.63.215 1 1 21928 20170522031649
+37.59.71.229 1 1 21928 20170531183018
+46.101.22.182 1 1 21928 20170523130437
+104.148.118.51 1 1 21928 20170523202650
+64.74.215.128 1 1 21928 20170522035321
+158.69.229.134 1 1 21928 20170521234125
+54.197.147.101 1 1 21928 20170527232607
+140.205.201.6 1 1 21928 20170524193642
+144.76.23.138 1 1 21928 20170522025524
+205.154.255.158 2 2 43856 20170523171316
+140.205.201.2 1 1 21928 20170523103731
+76.126.203.133 1 1 0 20170524202632
+146.185.144.64 1 1 21928 20170523172035
+62.210.101.170 1 1 21928 20170522025515
+54.174.55.250 1 1 21928 20170523163011
+93.195.170.178 1 1 21928 20170522025647
+66.102.8.154 1 1 21928 20170530185348
+163.172.4.153 2 2 43856 20170526085331
+45.56.116.155 1 1 21928 20170525235147
+73.165.70.99 1 1 21928 20170522160119
+24.6.245.3 1 1 21928 20170523174113
+69.58.178.59 1 1 21928 20170525041917
+54.176.128.153 1 1 0 20170522113744
+52.205.121.38 1 1 21928 20170522025515
+187.67.101.9 1 1 21928 20170521161030
+54.193.212.129 1 1 0 20170522031551
+88.99.148.113 2 2 21928 20170522025603
+120.25.210.250 2 2 43856 20170530044252
+23.96.179.202 1 1 21928 20170522082020
+76.14.29.109 1 1 0 20170522010250
+150.70.173.48 1 1 21928 20170522105900
+110.83.60.201 1 1 21928 20170524190018
+144.76.22.199 1 1 21928 20170522105652
+178.208.12.19 1 1 21928 20170529143309
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20170520 1 1 4159 1
+20170521 43 60 656153 11
+20170522 29 29 482416 27
+20170523 12 12 263136 12
+20170524 13 13 263136 11
+20170525 5 5 109640 5
+20170526 3 3 65784 3
+20170527 5 5 87712 3
+20170529 1 1 21928 1
+20170530 6 6 131568 5
+20170531 1 1 21928 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+2mn-5mn 2
+15mn-30mn 1
+0s-30s 75
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 118 1927649 80 79
+/panicarchitecture.html 1 23076 0 1
+END_SIDER
